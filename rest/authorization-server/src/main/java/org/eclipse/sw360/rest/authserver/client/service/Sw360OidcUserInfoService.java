@@ -39,7 +39,6 @@ public class Sw360OidcUserInfoService {
 				.name(user.getFullname())
 				.givenName(user.getGivenname())
 				.familyName(user.getLastname())
-				.middleName(user.getLastname())
 				.email(user.getEmail())
 				.claim(USER_GROUP, user.getUserGroup())
 				.claim(DEPARTMENT, user.getDepartment())
